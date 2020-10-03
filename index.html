@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Draw Me</h1>
+    <canvas class="pen" id="canvas" width="500" height="500">
+    </canvas>
+    <div class="toolbox">
+        <div class="size">
+            <button id="increase">+</button>
+            <input value="size" type="text" readonly>
+            <button id="decrease">-</button>
+            <input type="color" id="color">
+        </div>
+        <div class="actions">
+            <button id="pen"><i class="material-icons">create</i></button>
+            <button id="eraser"><i class="material-icons">table_chart</i></button>
+            <button id="clear"><i class="material-icons">cleaning_services</i></button>
+        </div>
+    </div>
+</body>
+</html>
