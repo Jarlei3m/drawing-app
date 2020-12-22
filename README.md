@@ -1,6 +1,6 @@
 # Draw Project
 
-- Simple project build with HTML, CSS and vanila Javascript.
+- Simple project build with HTML, CSS and vanilla Javascript.
 
 ![Draw](image/draw-gif.gif)
 
